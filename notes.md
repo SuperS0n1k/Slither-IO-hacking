@@ -3,9 +3,9 @@ This is where I'm putting all the expotable code I find with some notes. Feel fr
 ##Table of Contents
 Page # | topic
 -------|------
-0|[Table of Contents](##Table of Contents)
-1|[Zoom Controle](##Zoom Controle)
-2|[Dash Controle](##Dash Controle)
+0|[Table of Contents](#Table of Contents)
+1|[Zoom Controle](#Zoom Controle)
+2|[Dash Controle](#Dash Controle)
 ##Zoom Controle
 ```javascript
 gsc
