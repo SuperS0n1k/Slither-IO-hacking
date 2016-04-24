@@ -1,3 +1,10 @@
+// ==UserScript==
+// @name Slither Hscks
+// @namespace Cheets and stuff
+// @version 0.1
+// @description Some fun Hacks mods and cheets
+// @match http://slither.io/*
+// ==/UserScript==
 var loadHack = function() {
   this.scrol = .9;
   setInterval(() => {
