@@ -45,3 +45,26 @@ Sets the dash state
 setAcceleration(true);
 ```
 [Top](#Top)
+<div id='mousemove'/>
+##ym and xm
+###Documention
+call: ym
+
+Type: Variable
+
+Returns: number
+
+call: xm
+
+Type: Variable
+
+Returns: number
+###Description
+xm and ym are variables that holds the mouse locashion. Thay are set at line 2182 with this code;
+```javascript
+window.onmousemove = function(b) {
+    (b = b || window.event) && "undefined" != typeof b.clientX && (xm = b.clientX - ww / 2, ym = b.clientY - hh / 2)
+};
+```
+###Example
+TODO
