@@ -9,21 +9,21 @@ Page # | call | use
 2 | [setAcceleration()](#setAcceleration) | Dash Control
 <div id='gsc'/>
 ##gsc
-##Documention
+###Documention
 call: gsc
 
 Type: Variable
 
 Returns: number
 
-##Description
+###Description
 gsc is a varible thats controles the zoom level, among other things. The starting .9 and will get closer to 0 in a Logarithmic fashion as you get bigger. 
-##Example
+###Example
 ```javascript
 gsc *= .5;
 ```
 [Top](#Top)
-<div id='Dash Control'/>
+<div id='setAcceleration'/>
 ##setAcceleration()
 ###Documention
 Call: setAcceleration(_bool_)
