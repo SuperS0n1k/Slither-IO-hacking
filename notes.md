@@ -6,8 +6,8 @@ Page # | topic
 0|[Table of Contents](#Table of Contents)
 1|[Zoom Controle](#Zoom Control)
 2|[Dash Controle](#Dash Control)
-##Zoom Controle
 <div id='Zoom Control'/>
+##Zoom Controle
 ###gsc
 ####Documention
 call: gsc
