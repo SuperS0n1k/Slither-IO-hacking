@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Slither Hscks
-// @namespace Cheets and stuff
+// @namespace Cheats and stuff
 // @version 0.1
 // @description Some fun Hacks mods and cheets
 // @match http://slither.io/*
