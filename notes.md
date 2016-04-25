@@ -4,9 +4,10 @@ This is where I'm putting all the expotable code I find with some notes. Feel fr
 Page # | topic
 -------|------
 0|[Table of Contents](#Table of Contents)
-1|[Zoom Controle](#Zoom Controle)
-2|[Dash Controle](#Dash Controle)
+1|[Zoom Controle](#Zoom Control)
+2|[Dash Controle](#Dash Control)
 ##Zoom Controle
+<div id='Zoom Control'/>
 ###gsc
 ####Documention
 call: gsc
@@ -21,6 +22,7 @@ gsc is a varible thats controles the zoom level, among other things. The startin
 ```javascript
 gsc *= .5;
 ```
+<div id='Dash Control'/>
 ##Dash Controle
 ###setAcceleration
 ####Documention
