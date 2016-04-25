@@ -1,3 +1,4 @@
+<div id='top'/>
 #Notes
 This is where I'm putting all the expotable code I find with some notes. Feel free to add anything you find, or just some helpful notes. 
 ##Table of Contents
@@ -22,6 +23,7 @@ gsc is a varible thats controles the zoom level, among other things. The startin
 ```javascript
 gsc *= .5;
 ```
+[Top](#Top)
 <div id='Dash Control'/>
 ##Dash Controle
 ###setAcceleration
@@ -44,3 +46,4 @@ Sets the dash state
 ```javascript
 setAcceleration(true);
 ```
+[Top](#Top)
