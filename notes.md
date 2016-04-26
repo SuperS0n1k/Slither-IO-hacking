@@ -96,7 +96,7 @@ want_e && 100 < b - last_e_mtm && (want_e = !1, last_e_mtm = b, lsxm = xm, lsym 
 TODO
 <div id='Importantcode'/>
 ##Importint Code
-####this one looks Important
+####This one looks Important
 Line 1618 - 1622
 ```javascript
     if (null != snake) {
