@@ -2182,7 +2182,6 @@ for (i = ois.length - 1; 0 <= i; i--) ois[i].ii.src = ois[i].src;
 window.onmousemove = function(b) {
     (b = b || window.event) && "undefined" != typeof b.clientX && (xm = b.clientX - ww / 2, ym = b.clientY - hh / 2)
 };
-
 function setAcceleration(b) {
     if (null != snake) {
         snake.md = 1 == b;
@@ -2225,7 +2224,7 @@ window.ontouchstart = function(b) {
     }
 };
 window.onmousedown = function(b) {
-    if (0 == dmutm || Date.now() > dmutm) dmutm = 0, null != snake && (window.onmousemove(b), setAcceleration(1), b.preventDefault())  //setAcceleration(1)
+    if (0 == dmutm || Date.now() > dmutm) dmutm = 0, null != snake && (window.onmousemove(b), setAcceleration(1), b.preventDefault())
 };
 window.ontouchend = function() {
     setAcceleration(0)
