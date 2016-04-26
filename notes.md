@@ -7,8 +7,9 @@ Page # | call | use
 0 | [Table of Contents](#Table of Contents) | N/A
 1 | [gsc](#gsc) | Zoom Control
 2 | [setAcceleration()](#setAcceleration) | Dash Control
-3 | [ym and xm](#ym&xm)| mouse locashion
+3 | [ym and xm](#ym&xm) | mouse locashion
 4 | [lsym and lsxm](#lsym&lsxm) | Nothing
+5 | [Important places in code](#Importantcode) | N/A
 <div id='gsc'/>
 ##gsc
 ###Documention
@@ -93,3 +94,14 @@ want_e && 100 < b - last_e_mtm && (want_e = !1, last_e_mtm = b, lsxm = xm, lsym 
 (lsxm = xm, lsym = ym)
 ###Example
 TODO
+<div id='Importantcode'/>
+##Importint Code
+####this one looks Important
+Line 1618 - 1622
+```javascript
+    if (null != snake) {
+        if (xm != lsxm || ym != lsym) want_e = !0;
+        want_e && 100 < b - last_e_mtm && (want_e = !1, last_e_mtm = b, lsxm = xm, lsym = ym, d2 = xm * xm + ym * ym, 256 < d2 ? (ang = Math.atan2(ym, xm), snake.eang = ang) : ang = snake.wang, ang %= pi2, 0 > ang && (ang += pi2), 5 <= protocol_version ? (sang = Math.floor(251 * ang / pi2), sang != lsang && (lsang = sang, u = new Uint8Array(1), u[0] = sang & 255, lpstm = b, ws.send(u.buffer))) :
+            (sang = Math.floor(16777215 * ang / pi2), sang != lsang && (lsang = sang, u = new Uint8Array(4), u[0] = 101, u[1] = sang >> 16 & 255, u[2] = sang >> 8 & 255, u[3] = sang & 255, lpstm = b, ws.send(u.buffer))))
+    }
+```
