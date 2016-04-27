@@ -21,3 +21,4 @@ var loadHack = function() {
   }).bind(this);
 };
 loadHack();
+//setInterval(()=>{xm = foods[0].xx - snake.xx, ym = foods[0].yy - snake.yy},1)
