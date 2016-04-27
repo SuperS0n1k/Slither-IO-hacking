@@ -20,7 +20,7 @@ Type: Variable
 Returns: number
 
 ###Description
-gsc is a varible thats controles the zoom level, among other things. The starting .9 and will get closer to 0 in a Logarithmic fashion as you get bigger. 
+gsc is a varible thats controles the zoom level, among other things. The starting .9 and will get closer to 0 in a Logarithmic fashion as your snake gets bigger. 
 ###Example
 ```javascript
 gsc *= .5;
