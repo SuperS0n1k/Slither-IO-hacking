@@ -1,4 +1,8 @@
 setInterval(()=>{
+  a = foods[0];
+  foods = []
+  foods[0] = a;
+  foods_c = 1;
   xm = foods[0].xx - snake.xx;
   ym = foods[0].yy - snake.yy
   this.ctx =  document.querySelector('canvas.nsi').getContext('2d');
@@ -9,5 +13,5 @@ setInterval(()=>{
   this.ctx.lineWidth = 5;
   this.ctx.strokeStyle = '#003300';
   this.ctx.stroke();
-},20)
+},1)
 
