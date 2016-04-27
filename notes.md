@@ -33,7 +33,7 @@ Call: setAcceleration(_bool_)
 
 Type: Function
 
-Returns: ?
+Returns: null
 
 **Arguments**
 
