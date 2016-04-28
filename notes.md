@@ -1,6 +1,7 @@
 <div id='top'/>
 #Notes
 This is where I'm putting all the expotable code I find with some notes. Feel free to add anything you find, or just some helpful notes. 
+<div id='TableofContents'/>
 ##Table of Contents
 Page # | call | use
 -------|------|----
