@@ -13,14 +13,12 @@ Page # | call | use
 <div id='gsc'/>
 ##gsc
 ###Documention
-call: gsc
+usage: gsc
 
-Type: Variable
-
-Returns: number
+Type: number
 
 ###Description
-gsc is a varible thats controles the zoom level, among other things. The starting .9 and will get closer to 0 in a Logarithmic fashion as your snake gets bigger. 
+gsc is a varible thats controls the zoom level, among other things. The starting .9 and will get closer to 0 in a logarithmic fashion as your snake gets bigger. 
 ###Example
 ```javascript
 gsc *= .5;
@@ -29,7 +27,7 @@ gsc *= .5;
 <div id='setAcceleration'/>
 ##setAcceleration()
 ###Documention
-Call: setAcceleration(_bool_)
+Usage: setAcceleration(_bool_)
 
 Type: Function
 
@@ -51,17 +49,13 @@ setAcceleration(true);
 <div id='ym&xm'/>
 ##ym and xm
 ###Documention
-call: ym
+Usage: ym
 
-Type: Variable
+Type: number
 
-Returns: number
+Usage: xm
 
-call: xm
-
-Type: Variable
-
-Returns: number
+Type: number
 ###Description
 xm and ym are variables that holds the mouse locashion. Thay are set at line 2182 with this code;
 ```javascript
@@ -74,17 +68,13 @@ TODO
 <div id='lsym&lsxm'/>
 ##lsym and lsxm
 ###Documention
-call: lsym
+Usage: lsym
 
-Type: Variable
+Type: number
 
-Returns: number
+Usage: lsxm
 
-call: lsxm
-
-Type: Variable
-
-Returns: number
+Type: number
 ###Description
 lsxm and lsym are the last value of xm and ym (I think?). Thay are set at line 1620 with this code;
 ```javascript
