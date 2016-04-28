@@ -1,11 +1,10 @@
 <div id='top'/>
 #Notes
-This is where I'm putting all the expotable code I find with some notes. Feel free to add anything you find, or just some helpful notes. 
-<div id='TableofContents'/>
+This is where I'm putting all the exploitable code I find with some notes. Feel free to add anything you find, or just some helpful notes. 
 ##Table of Contents
 Page # | call | use
 -------|------|----
-0 | [Table of Contents](#TableofContents) | N/A
+0 | [Table of Contents](#Table of Contents) | N/A
 1 | [gsc](#gsc) | Zoom Control
 2 | [setAcceleration()](#setAcceleration) | Dash Control
 3 | [ym and xm](#ym&xm) | mouse locashion
@@ -21,10 +20,10 @@ usage: gsc
 Type: number
 
 ###Description
-gsc is a varible thats controls the zoom level, among other things. The starting .9 and will get closer to 0 in a logarithmic fashion as your snake gets bigger. 
+gsc is a varible thats controls the zoom level, among other things. The starting 0.9 and will get closer to 0 in a logarithmic fashion as your snake gets bigger.
 ###Example
 ```javascript
-gsc *= .5;
+gsc *= 0.5;
 ```
 [Top](#Top)
 <div id='setAcceleration'/>
@@ -92,7 +91,7 @@ want_e && 100 < b - last_e_mtm && (want_e = !1, last_e_mtm = b, lsxm = xm, lsym 
 ###Example
 TODO
 <div id='Importantcode'/>
-##Importint Code
+##Important Code
 ####This one looks Important
 Line 1618 - 1622
 ```javascript
