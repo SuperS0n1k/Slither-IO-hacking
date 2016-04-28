@@ -5,7 +5,7 @@ This is where I'm putting all the expotable code I find with some notes. Feel fr
 ##Table of Contents
 Page # | call | use
 -------|------|----
-0 | [Table of Contents](#Table of Contents) | N/A
+0 | [Table of Contents](#TableofContents) | N/A
 1 | [gsc](#gsc) | Zoom Control
 2 | [setAcceleration()](#setAcceleration) | Dash Control
 3 | [ym and xm](#ym&xm) | mouse locashion
