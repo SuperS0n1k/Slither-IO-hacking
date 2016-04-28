@@ -13,6 +13,8 @@ Page # | call | use
 <div id='gsc'/>
 ##gsc
 ###Documention
+**Specs:**
+
 usage: gsc
 
 Type: number
@@ -27,13 +29,15 @@ gsc *= .5;
 <div id='setAcceleration'/>
 ##setAcceleration()
 ###Documention
+**Specs:**
+
 Usage: setAcceleration(_bool_)
 
 Type: Function
 
 Returns: null
 
-**Arguments**
+**Arguments:**
 
 Argument | Type | Description
 ---|---| ---
@@ -49,7 +53,8 @@ setAcceleration(true);
 <div id='ym&xm'/>
 ##ym and xm
 ###Documention
-Usage: ym
+**Specs:**
+Usage: ym 
 
 Type: number
 
@@ -68,6 +73,7 @@ TODO
 <div id='lsym&lsxm'/>
 ##lsym and lsxm
 ###Documention
+**Specs:**
 Usage: lsym
 
 Type: number
