@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Cheats&stuff
 // @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  some fun Hacks mods and cheets
+// @version      0.2.1
+// @description  Some fun Hacks mods and cheets.
 // @author       Pcat
 // @match        http://slither.io/
 // @downloadURL  https://github.com/Pcat0/Slither-IO-hacking/raw/master/Cheats-and-Stuff/Cheats%26Stuff.user.js
@@ -10,8 +10,7 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
-    this.scrol = .9;
+    this.scrol = 0.9;
     setInterval(function(){
         gsc = this.scrol;
     }, 1);
