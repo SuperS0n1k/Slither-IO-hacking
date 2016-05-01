@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Slither Hacks
+// @name         Cheats and stuff
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  some fun Hacks mods and cheets
