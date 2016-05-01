@@ -6,7 +6,7 @@
 // @author       Pcat
 // @match        @match http://slither.io/*
 // @downloadURL  https://github.com/Pcat0/Slither-IO-hacking/raw/master/Cheats-and-Stuff/Cheats%26Stuff.user.js
-// @updateUR     https://github.com/Pcat0/Slither-IO-hacking/raw/master/Cheats-and-Stuff/Cheats%26Stuff.user.js
+// @updateURL    https://github.com/Pcat0/Slither-IO-hacking/raw/master/Cheats-and-Stuff/Cheats%26Stuff.user.js
 // ==/UserScript==
 
 (function() {
