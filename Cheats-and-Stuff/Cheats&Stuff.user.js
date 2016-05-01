@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  some fun Hacks mods and cheets
 // @author       Pcat
-// @match        @match http://slither.io/*
+// @match        http://slither.io/
 // @downloadURL  https://github.com/Pcat0/Slither-IO-hacking/raw/master/Cheats-and-Stuff/Cheats%26Stuff.user.js
 // @updateURL    https://github.com/Pcat0/Slither-IO-hacking/raw/master/Cheats-and-Stuff/Cheats%26Stuff.user.js
 // ==/UserScript==
