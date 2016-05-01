@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cheats&stuff
 // @namespace    http://tampermonkey.net/
-// @version      0.2.1
+// @version      0.3
 // @description  Some fun Hacks mods and cheets.
 // @author       Pcat
 // @match        http://slither.io/
