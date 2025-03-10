@@ -1,10 +1,6 @@
 setInterval(()=>{
-  a = foods[0];
-  foods = []
-  foods[0] = a;
-  foods_c = 1;
-  xm = foods[0].xx - snake.xx;
-  ym = foods[0].yy - snake.yy
+  xm = foods[0].xx - slither.xx;
+  ym = foods[0].yy - slither.yy
   this.ctx =  document.querySelector('canvas.nsi').getContext('2d');
   this.ctx.beginPath();
   this.ctx.arc(xm, ym, 20, 0, 2 * Math.PI, false);
